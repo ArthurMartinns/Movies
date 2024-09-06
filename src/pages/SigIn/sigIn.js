@@ -57,8 +57,23 @@ export const top = styled.div`
         font-size: 14px;
     }
 `
-
 export const form = styled.div`
+    width: 100%;
+    max-width: 340px;
 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
+    h3 {
+        font-size: 24px;
+        font-weight: 400;
+        color: ${({theme}) => theme.COLORS.WHITE};
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
 `
