@@ -7,4 +7,8 @@ export default createGlobalStyle`
         box-sizing: border-box;
         font-family: "Roboto Slab", serif;
     }
+
+    html {
+        font-size: 62.5%;
+    }
 `

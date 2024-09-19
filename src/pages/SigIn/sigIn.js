@@ -34,39 +34,39 @@ export const right = styled.div`
 `
 
 export const content = styled.div`
-    border: 2px solid #212;
-    max-width: 340px;
+    border: .2rem solid #212;
+    max-width: 34.0rem;
 
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 4.8rem;
 `
 
 export const top = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: .5rem;
 
     h1 { 
         color: ${({theme}) => theme.COLORS.PINK};
-        font-size: 48px;
+        font-size: 4.8rem;
     }
 
     P {
         color: ${({theme}) => theme.COLORS.GRAY_CLARO};
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 `
 export const form = styled.div`
     width: 100%;
-    max-width: 340px;
+    max-width: 34.0rem;
 
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 3.0rem;
 
     h3 {
-        font-size: 24px;
+        font-size: 2.4rem;
         font-weight: 400;
         color: ${({theme}) => theme.COLORS.WHITE};
     }
@@ -74,6 +74,6 @@ export const form = styled.div`
     form {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: .8rem;
     }
 `

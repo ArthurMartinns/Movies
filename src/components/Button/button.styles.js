@@ -6,10 +6,10 @@ export const Button = styled.div`
     justify-content: center;
     
     width: 100%;
-    height: 56px;
+    height: 5.6rem;
 
-    padding: 0 16px;
-    border-radius: 8px;
+    padding: 0 1.6rem;
+    border-radius: .8rem;
 
     background-color: ${({theme}) => theme.COLORS.PINK};
     color: ${({theme}) => theme.COLORS.BACKGROUND};

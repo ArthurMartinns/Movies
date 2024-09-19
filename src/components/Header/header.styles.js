@@ -4,20 +4,20 @@ export const Container = styled.div`
     width: 100%;
     
     background-color: ${({theme}) => theme.COLORS.BACKGROUND};
-    padding: 0 123px;
+    padding: 0 12.3rem;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 3.0rem;
 
-    height: 116px;
+    height: 11.6rem;
 `
 
 export const Title = styled.div`
     color: ${({theme}) => theme.COLORS.PINK};
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
 `
 
@@ -25,7 +25,7 @@ export const Profile = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 6px;
+    gap: .6rem;
 `
 
 export const Left = styled.div`
@@ -42,8 +42,8 @@ export const Left = styled.div`
 export const Right = styled.div`
     background-color: ${({theme}) => theme.COLORS.WHITE};
 
-    width: 30px;
-    height: 30px;
+    width: 3.0rem;
+    height: 3.0rem;
 
-    border-radius: 50px;
+    border-radius: 5.0rem;
 `
